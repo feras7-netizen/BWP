@@ -1,0 +1,7 @@
+
+/* Minimal RTL helpers (site already uses Bootstrap RTL) */
+[dir="rtl"] .text-start { text-align: right !important; }
+[dir="rtl"] .text-end   { text-align: left  !important; }
+
+/* Language switcher small tweaks */
+.lang-switcher .lang-btn.active { outline: 2px solid rgba(0,0,0,.2); }

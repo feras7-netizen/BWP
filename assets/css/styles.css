@@ -1,0 +1,19 @@
+/* EN: Theme variables and responsive utilities. Primary navy, accent gold, neutral background. */
+
+:root{--primary:#0b1b3b;--accent:#d4af37;--bg:#fff;--text:#111}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Tajawal,system-ui,Arial;background:var(--bg);color:var(--text);line-height:1.6}
+.navbar{border-bottom:4px solid var(--accent)}
+.btn-accent{background:var(--accent);color:#111;border:none}
+.badge-cat{background:var(--accent);color:#111;font-weight:700}
+.card img{aspect-ratio:16/9;object-fit:cover;width:100%;height:auto}
+#evImg{aspect-ratio:16/9;object-fit:cover;width:100%;height:auto}
+.section-title{border-inline-start:6px solid var(--accent);padding-inline-start:.6rem;font-weight:800;margin:1.5rem 0 .75rem}
+footer{background:#0a1530;color:#e5e7eb}
+footer a{color:#e5e7eb;text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media (max-width: 576px){
+  .hero-title{font-size:1.75rem}
+  .carousel-caption{font-size:.9rem}
+}
